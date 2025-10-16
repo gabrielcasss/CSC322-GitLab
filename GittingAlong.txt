@@ -1,0 +1,59 @@
+mkdir GitLab
+cd GitLab
+echo '#include <stdio.h>
+int main() {
+    printf("Hello World!\\n");
+    return 0;
+}' > HelloWorld.c
+git init
+git add HelloWorld.c
+git commit -m "Initial commit: Add HelloWorld.c"
+git remote add origin https://github.com/gabrielcasss/CSC322-GitLab.git
+git branch -M main
+git push -u origin main
+echo '#include <stdio.h>
+int main() {
+    printf("Hello Crool World!\\n");
+    return 0;
+}' > HelloWorld.c
+git add HelloWorld.c
+git commit -m "Change to Hello Crool World!"
+git push
+git branch Happy
+git checkout Happy
+git push -u origin Happy
+echo '#include <stdio.h>
+int main() {
+    printf("Hello Happy World!\\n");
+    return 0;
+}' > HelloWorld.c
+git add HelloWorld.c
+git commit -m "Change to Hello Happy World!"
+git push
+git checkout main
+echo '#include <stdio.h>
+int main() {
+    printf("Hello Very Crool World!\\n");
+    return 0;
+}' > HelloWorld.c
+git add HelloWorld.c
+git commit -m "Change to Hello Very Crool World!"
+git push
+git merge Happy
+echo '#include <stdio.h>
+int main() {
+    printf("Hello Very Happy World!\\n");
+    return 0;
+}' > HelloWorld.c
+git add HelloWorld.c
+git commit -m "Merge Happy branch: Hello Very Happy World!"
+git push
+echo '#include <stdio.h>
+int main() {
+    printf("Hello Crazy World!\\n");
+    return 0;
+}' > HelloWorld.c
+git add HelloWorld.c
+git commit -m "Change to Hello Crazy World!"
+git push
+git log --all --graph > GitLog.txt

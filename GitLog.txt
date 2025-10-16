@@ -1,0 +1,36 @@
+* commit b195e20d0b65d8ebb2f318e48d1734253710918d
+| Author: gabrielcasss <gxc1801@miami.edu>
+| Date:   Thu Oct 16 07:46:00 2025 -0400
+| 
+|     Crazy
+|   
+*   commit c86faf08a4342942bf6b1af42ed8c2d349587fa8
+|\  Merge: bb6b539 7a5c381
+| | Author: gabrielcasss <gxc1801@miami.edu>
+| | Date:   Thu Oct 16 07:42:54 2025 -0400
+| | 
+| |     merge happy
+| | 
+| * commit 7a5c381fd83888d62a1cabe1be3a2171053e860c
+| | Author: gabrielcasss <gxc1801@miami.edu>
+| | Date:   Thu Oct 16 07:40:12 2025 -0400
+| | 
+| |     Change to Hello Happy World
+| | 
+* | commit bb6b539584598aeeb774c2608ab1954826b0ed43
+|/  Author: gabrielcasss <gxc1801@miami.edu>
+|   Date:   Thu Oct 16 07:41:27 2025 -0400
+|   
+|       Hello Very Crool world
+| 
+* commit 5d10977d7c3c9e97b2595f47b3eba5947d52017d
+| Author: gabrielcasss <gxc1801@miami.edu>
+| Date:   Thu Oct 16 07:38:35 2025 -0400
+| 
+|     Change to Hello Crool World
+| 
+* commit b92303284a49e1a270252b14776b2cf5494a0b25
+  Author: gabrielcasss <gxc1801@miami.edu>
+  Date:   Thu Oct 16 07:33:32 2025 -0400
+  
+      Initial commit of HelloWorld.c
